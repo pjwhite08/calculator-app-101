@@ -8,10 +8,10 @@ body {
   background-color: #9BC995;
   color: #3f3047;
   font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
 }
 
 form {
-  
   border-radius: 10px;
   background-color: #5171a5;
   display: flex;
@@ -21,12 +21,12 @@ form {
 }
 .numberInsert {
   text-align: center; 
-  padding: 5px;
+  padding: 5px 0;
   
 }
 .numberLabel {
   display: inline-block; /*OMG I finally understand inline-block!*/
-  width: 110px;
+  width: 150px;
   text-align: center;
   color: #eef36a;
 }
@@ -49,8 +49,13 @@ form {
   border-radius: 10px;
   width: 67px;
   margin: 5px; /*why did adding a margin change their width?*/
-  padding: 5px;
+  padding: 2 5px;
   font-family: 'Rajdhani', sans-serif;
+  font-size: 20px
+}
+#modulus {
+  font-size: 15px;
+  padding: 5px;
 }
 
 .endButtonsContainer {
@@ -71,6 +76,7 @@ form {
   color: #eef36a;
   font-size: 25px;
   border: 1px solid #eef36a;
+  border-radius: 5px;
   width: 250px;
   height: 35px;
   padding: 8px;
@@ -79,4 +85,12 @@ form {
   font-family: 'Rajdhani', sans-serif;
 
 }
+#clearButton {
+  font-size: 20px;
+  padding-left: 11px;
+}
+#equalsButton {
+  font-size: 30px;
+}
+
 
