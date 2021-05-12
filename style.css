@@ -10,12 +10,12 @@ body {
 }
 
 form {
-  border: 1px solid  #3f3047;
+  
   border-radius: 10px;
   background-color: #5171a5;
   display: flex;
   flex-direction: column;
-  width: 380px;
+  width: 475px;
   padding: 15px;
 }
 .numberInsert {
@@ -60,5 +60,17 @@ form {
   margin: 0 20px;
   border-radius: 50%;
   width: 66px;
+}
+
+#result {
+  color: #eef36a;
+  font-size: 25px;
+  border: 1px solid #eef36a;
+  width: 250px;
+  height: 35px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+
 }
 

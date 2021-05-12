@@ -61,7 +61,7 @@ const changeOperation = (chosenOperation) => {
 // In order to show the user their results we have to access the DOM and stick in the value
 const putResultInElement = (operationResults) => {
   // access the DOM by writing "document" then use the method "getElementById" and pass it the id, "result".
-  document.getElementById("result").innerHTML = "Results: " + operationResults
+  document.getElementById("result").innerHTML = "Result: " + operationResults
 
   // Remember, each element has built in properties like "innerHTML" which we can change to anything we like. 
   // Here we give it a string: "Results: " and add the value of the operation to it.
