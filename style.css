@@ -7,6 +7,7 @@ body {
   height: 75%;
   background-color: #9BC995;
   color: #3f3047;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 form {
@@ -21,6 +22,7 @@ form {
 .numberInsert {
   text-align: center; 
   padding: 5px;
+  
 }
 .numberLabel {
   display: inline-block; /*OMG I finally understand inline-block!*/
@@ -32,6 +34,7 @@ form {
   border: 2px solid #98b9ab;
   width: 200px;
   background-color: #d6f0e5;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .operationButtons {
@@ -47,6 +50,7 @@ form {
   width: 67px;
   margin: 5px; /*why did adding a margin change their width?*/
   padding: 5px;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .endButtonsContainer {
@@ -60,6 +64,7 @@ form {
   margin: 0 20px;
   border-radius: 50%;
   width: 66px;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 #result {
@@ -71,6 +76,7 @@ form {
   padding: 8px;
   text-align: center;
   margin: auto;
+  font-family: 'Rajdhani', sans-serif;
 
 }
 
