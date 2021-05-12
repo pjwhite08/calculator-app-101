@@ -1,5 +1,64 @@
+/*palette: https://coolors.co/9bc995-98b9ab-5171a5-3f3047-eef36a
+*/
+
 body {
   margin: 20% auto;
   width: 50%;
   height: 75%;
+  background-color: #9BC995;
+  color: #3f3047;
 }
+
+form {
+  border: 1px solid  #3f3047;
+  border-radius: 10px;
+  background-color: #5171a5;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  padding: 15px;
+}
+.numberInsert {
+  text-align: center; 
+  padding: 5px;
+}
+.numberLabel {
+  display: inline-block; /*OMG I finally understand inline-block!*/
+  width: 110px;
+  text-align: center;
+  color: #eef36a;
+}
+.numberInput {
+  border: 2px solid #98b9ab;
+  width: 200px;
+  background-color: #d6f0e5;
+}
+
+.operationButtons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10px;
+}
+.opButton {
+  background-color: #98b9ab;
+  color: #3f3047;
+  border-radius: 10px;
+  width: 67px;
+  margin: 5px; /*why did adding a margin change their width?*/
+  padding: 5px;
+}
+
+.endButtonsContainer {
+  display: flex; 
+  justify-content: space-between;
+}
+.endButton {
+  color: #5171a5;
+  background-color: #eef36a;
+  padding: 15px;
+  margin: 0 20px;
+  border-radius: 50%;
+  width: 66px;
+}
+
